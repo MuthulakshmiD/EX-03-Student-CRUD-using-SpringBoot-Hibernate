@@ -290,6 +290,7 @@ public class StudentController {
 }
 ```
 StudentApplication.java
+```
 package com.example.student;
 
 import org.springframework.boot.SpringApplication;
@@ -329,11 +330,11 @@ http://localhost:8080/h2-console
 
 
 Use the following database details:
-
+```
 JDBC URL: jdbc:h2:mem:testdb
 User Name: sa
 Password:
-
+```
 
 After connecting, execute:
 
@@ -343,6 +344,6 @@ SELECT * FROM STUDENT;
 <img width="1917" height="1027" alt="Screenshot 2026-09-05 154252" src="https://github.com/user-attachments/assets/e9b2ba07-cdfd-431b-90f9-1197bc3da48c" />
 
 
-RESULT
+## RESULT
 
 The Spring Boot application for performing CRUD operations on the Student entity using Spring Data JPA (Hibernate) and an in-memory H2 database was successfully developed, executed, and verified using REST API requests and the H2 Web Console.
